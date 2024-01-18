@@ -1,19 +1,23 @@
 <script>
+    import Footer from "./components/Footer.svelte";
+
 
 </script>
 
+
 <slot/>
+<Footer/>
 
 <style>
 
 @font-face{
     font-family: Nunito;
-    src: url(font/Nunito-VariableFont_wght.ttf);
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
 }
 
 :root{
     --cor-principal: #979797;
-    -cor-secundario: #343239;
+    --cor-secundario: #343239;
     --fonte-principal: Nunito;
 }
 
