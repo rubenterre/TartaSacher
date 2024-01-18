@@ -1,11 +1,12 @@
 <script>
-  import AporteNutricional from "./components/Aporte_nutricional.svelte";
-
-
+    import Footer from "./components/Footer.svelte";
 </script>
 
 
-<AporteNutricional/>
+
+<slot/>
+<Footer/>
+
 
 <style>
 
@@ -16,7 +17,7 @@
 
 :root{
     --cor-principal: #979797;
-    -cor-secundario: #343239;
+    --cor-secundario: #343239;
     --fonte-principal: Nunito;
 }
 
