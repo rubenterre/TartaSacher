@@ -1,36 +1,36 @@
 <script>
-
+import Descripcion from "./components/Descripcion.svelte";
   import Video from "./components/Video.svelte";
-      </script>
-      
-      <section>
-          <div class="cabecera">
-              <div class="cabecera__video">
+
+  </script>
+  
+  <section>
+      <div class="cabecera">
+          <div class="cabecera__video">
               <Video/>
-              </div>
-              <div class="cabecera__detalle">
-                  
-              </div>
           </div>
-          
-      </section>
-      
-      <style>
-        .cabecera {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          background-color: var(--cor-principal);
-          margin-top: 30px;
-        }
-      
-        .cabecera__video {
-          position: relative;
-          width: 100%;
-          padding-bottom: 56.25%;
-        }
-      
-        .cabecera__detalle{
-          padding: 50px;
-        }
-      </style>
-      
+          <div class="cabecera__detalle">
+              
+          </div>
+      </div>
+      <Descripcion />
+  </section>
+  
+  <style>
+    .cabecera {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background-color: var(--cor-principal);
+      margin-top: 30px;
+    }
+  
+    .cabecera__video {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+    }
+  
+    .cabecera__detalle{
+      padding: 50px;
+    }
+  </style>
