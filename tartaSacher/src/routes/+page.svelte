@@ -1,18 +1,27 @@
 <script>
-  import Detalles from "./components/Detalles.svelte";
 
-    
+  import Detalles from "./components/Detalles.svelte";
+  import Descripcion from "./components/Descripcion.svelte";
+  import Video from "./components/Video.svelte";
+  import AporteNutricional from "./components/Aporte_nutricional.svelte";
+
       </script>
       
       <section>
           <div class="cabecera">
               <div class="cabecera__video">
-                  
+                    <Video/>
               </div>
               <div class="cabecera__detalle">
+
                   <Detalles/>
               </div>
           </div>
+                  <AporteNutricional/>
+              </div>
+          </div>
+                <Descripcion />
+
       </section>
       
       <style>
