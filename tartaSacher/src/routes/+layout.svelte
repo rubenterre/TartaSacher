@@ -1,14 +1,17 @@
 <script>
+  import AporteNutricional from "./components/Aporte_nutricional.svelte";
+
 
 </script>
 
-<slot/>
+
+<AporteNutricional/>
 
 <style>
 
 @font-face{
     font-family: Nunito;
-    src: url(font/Nunito-VariableFont_wght.ttf);
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
 }
 
 :root{
