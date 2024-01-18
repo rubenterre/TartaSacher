@@ -8,12 +8,12 @@
 
 @font-face{
     font-family: Nunito;
-    src: url(font/Nunito-VariableFont_wght.ttf);
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
 }
 
 :root{
-    --cor-principal: #979797;
-    -cor-secundario: #343239;
+    --cor-principal: #F7F7F7;
+    --cor-secundario: #343239;
     --fonte-principal: Nunito;
 }
 

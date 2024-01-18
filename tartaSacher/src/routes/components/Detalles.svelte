@@ -13,4 +13,34 @@
     </div>
 </div>
 
-<style></style>
+<style>
+    .detalles{
+        width: 497px;
+        height: 71.7px;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--cor-principal);
+    }
+
+    .detalles__left, .detalles__right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    p{
+        font-family: var(--fonte-principal);
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+        width: 34px;
+    }
+
+    .icono{
+        margin-right: 16px;
+        display: flex;
+        align-items: center;
+    }
+</style>
