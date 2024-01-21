@@ -1,8 +1,12 @@
 <script>
-
+    import Footer from "./components/Footer.svelte";
 </script>
 
+
+
 <slot/>
+<Footer/>
+
 
 <style>
 
@@ -12,7 +16,7 @@
 }
 
 :root{
-    --cor-principal: #979797;
+    --cor-principal: #F7F7F7;
     --cor-secundario: #343239;
     --fonte-principal: Nunito;
 }
