@@ -1,3 +1,4 @@
+
 <script>
   import Detalles from "./components/Detalles.svelte";
   import Descripcion from "./components/Descripcion.svelte";
@@ -38,3 +39,4 @@
     padding: 50px;
   }
 </style>
+
