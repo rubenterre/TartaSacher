@@ -7,18 +7,22 @@ function showPopup() {
 }
 </script>
 
-<div>
+<div class="aporte">
   <p class=" titulo">Qué me aporta esta receta…</p>
-  <div class="contenidoNutriconal" on:click={showPopup}>
+  <button  class="contenidoNutriconal" on:click={showPopup}>
     <p class="informacion">Información nutricional</p>
     <button class="boton"><img src="+.svg" alt="" /></button>
-  </div>
+  </button>
 </div>
-<Popup bind:visible={popupVisible} />
+<Popup bind:visible={popupVisible}/>
 
 <style>
 
-  :global(.titulo) {
+  .aporte{
+    margin-top: 50px;
+  }
+
+  .titulo {
     color: #000000;
     font-family: Nunito;
     font-size: 20px;
@@ -28,7 +32,7 @@ function showPopup() {
     margin-bottom: 30px;
   }
 
-  :global(.contenidoNutriconal) {
+  .contenidoNutriconal {
     display: flex;
     width: 628px;
     height: 44px;
@@ -39,7 +43,7 @@ function showPopup() {
     padding-right: 11px;
   }
 
-  :global(.informacion) {
+ .informacion {
     color: #000;
     font-family: Nunito;
     font-size: 16px;
@@ -53,7 +57,7 @@ function showPopup() {
     padding-left: 9px;
   }
 
-  :global(.boton) {
+ .boton {
     color: #000;
     border: none;
     background-color: #fff;

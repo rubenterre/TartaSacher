@@ -20,6 +20,7 @@
         display: flex;
         justify-content: space-between;
         background-color: var(--cor-principal);
+        margin-top: 31px;
     }
 
     .detalles__left, .detalles__right{

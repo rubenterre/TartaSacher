@@ -8,7 +8,7 @@
 <style>
   /* Footer */
   footer {
-    width: 1440px;
+    width: 100%;
     height: 84px;
     background: #343239;
   }
